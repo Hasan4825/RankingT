@@ -10,5 +10,5 @@ author = {Cevikalp, Hakan and Saribas, Hasan and Benligiray, Burak and Kahveciog
 title = {Visual Object Tracking by Using Ranking Loss},  
 booktitle = {The IEEE International Conference on Computer Vision (ICCV) Workshops},  
 month = {Oct},  
-year = {2019} 
+year = {2019}  
 }
