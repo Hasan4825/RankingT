@@ -1,5 +1,7 @@
 # RankingT: Visual object tracking by using Ranking Loss
 # Visual Object Tracking by Using Ranking Loss and Spatial-Temporal Features (RankingAF and RankingSF)
+This is the official implementation with training code for RankingT, RankingAF and RankingSF trackers.
+
 You can find our [Ranking paper](http://openaccess.thecvf.com/content_ICCVW_2019/papers/VOT/Cevikalp_Visual_Object_Tracking_by_Using_Ranking_Loss_ICCVW_2019_paper.pdf).
 
 ### Trackers
@@ -47,6 +49,9 @@ specific weights as described earlier), on 6 different benchmark datasets.
   <img src="Results/out-of-plane_rotation_overlap_OPE_AUC_OTB100.png" width="200"/>
   <img src="Results/scale_variations_overlap_OPE_AUC_OTB100.png" width="200"/>
 </p>
+
+#### Acknowledgements
+This is a modified version of the python framework pytracking based on PyTorch. We would like to thank the authors Martin Danelljan and Goutam Bhat for providing such a great framework.
 
 ## Citation
 If you're using this code in a publication, please cite our paper.
