@@ -52,7 +52,7 @@ specific weights as described earlier), on 6 different benchmark datasets.
 </p>
 
 #### Acknowledgements
-This is a modified version of the python framework pytracking based on PyTorch. We would like to thank the authors Martin Danelljan and Goutam Bhat for providing such a great framework.
+This is a modified version of the python frameworks pytracking and py-MDNet based on PyTorch. We would like to thank the authors Martin Danelljan, Goutam Bhat, Hyeonseob Nam, Bohyung Han  for providing such a great frameworks.
 
 ## Citation
 If you're using this code in a publication, please cite our paper.
