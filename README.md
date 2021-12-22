@@ -1,8 +1,12 @@
-# RankingT: Visual object tracking by using Ranking Loss
-# Visual Object Tracking by Using Ranking Loss and Spatial-Temporal Features (RankingAF and RankingSF)
-This is the official implementation with training code for RankingT, RankingAF and RankingSF trackers.
+# RankingT: Visual object tracking by using Ranking Loss 
+The official implementation of the ICCVW2019 paper [Visual object tracking by using Ranking Loss](http://openaccess.thecvf.com/content_ICCVW_2019/papers/VOT/Cevikalp_Visual_Object_Tracking_by_Using_Ranking_Loss_ICCVW_2019_paper.pdf).
 
-You can find our [Ranking paper](http://openaccess.thecvf.com/content_ICCVW_2019/papers/VOT/Cevikalp_Visual_Object_Tracking_by_Using_Ranking_Loss_ICCVW_2019_paper.pdf).
+#### The proposed Ranking loss
+<img src="gfx/loss_fcn.png" width="500">
+
+# Visual Object Tracking by Using Ranking Loss and Spatial-Temporal Features (RankingAF and RankingSF)
+The official implementation of the Visual Object Tracking by Using Ranking Loss and Spatial-Temporal Features (RankingAF and RankingSF).The article will be here after the publication process.
+
 ### Raw results
 
 ### Trackers
@@ -12,9 +16,6 @@ These project introduces a novel two-stream deep neural network tracker for robu
 The architecture of the proposed two-stream network: We learn class-specific weights to fuse classifiers’ outputs of the two networks.
 
 <img src="gfx/RankingOverall.png" width="750">
-
-#### The proposed Ranking loss
-<img src="gfx/loss_fcn.png" width="500">
 
 ## Results
 #### The values of the online learned fusion weights for spatial and temporal networks for the zebrafish video frames
