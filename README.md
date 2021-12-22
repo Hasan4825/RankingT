@@ -5,7 +5,7 @@ The official implementation of the ICCVW2019 paper [Visual object tracking by us
 <img src="gfx/loss_fcn.png" width="500">
 
 # Visual Object Tracking by Using Ranking Loss and Spatial-Temporal Features (RankingAF and RankingSF)
-The official implementation of the Visual Object Tracking by Using Ranking Loss and Spatial-Temporal Features (RankingAF and RankingSF).The article will be here after the publication process.
+The official implementation of the Visual Object Tracking by Using Ranking Loss and Spatial-Temporal Features (RankingAF and RankingSF). The article will be here after the publication process.
 
 ### Raw results
 
