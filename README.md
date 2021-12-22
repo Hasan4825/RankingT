@@ -35,6 +35,7 @@ specific weights as described earlier), on 6 different benchmark datasets.
   <img src="Results/quality_plot_error_OPE_threshold_OTB100.png" width="300"/>
   <img src="Results/quality_plot_overlap_OPE_AUC_OTB100.png" width="300"/>
 </p>
+
 #### Success and precision plots of the proposed methods and the state-of-the-art trackers on the UAV123 dataset.
 
 <p float="left">
@@ -52,7 +53,7 @@ specific weights as described earlier), on 6 different benchmark datasets.
 </p>
 
 #### Acknowledgements
-This is a modified version of the python frameworks pytracking and py-MDNet based on PyTorch. We would like to thank the authors Martin Danelljan, Goutam Bhat, Hyeonseob Nam, Bohyung Han  for providing such a great frameworks.
+This is a modified version of the python frameworks pytracking and py-MDNet based on PyTorch. We would like to thank the authors Martin Danelljan, Goutam Bhat, Hyeonseob Nam and Bohyung Han  for providing such a great frameworks.
 
 ## Citation
 If you're using this code in a publication, please cite our paper.
