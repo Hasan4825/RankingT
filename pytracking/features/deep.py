@@ -5,7 +5,7 @@ from pytracking import TensorList
 from pytracking.evaluation.environment import env_settings
 import os
 from pytracking.utils.loading import load_network
-from ltr.models.backbone.resnet18_vggm import resnet18_vggmconv1
+# from ltr.models.backbone.resnet18_vggm import resnet18_vggmconv1
 import ltr.models.bbreg as bbmodels
 
 normalize = torchvision.transforms.Normalize(mean=[0.485, 0.456, 0.406],
