@@ -12,7 +12,7 @@ The architecture of the proposed two-stream network: We learn class-specific wei
 
 1) Introduction of a novel dual-stream deep neural network architecture that uses both spatial and temporal features instead of using spatial features alone for tracking.
 2) Introduction of two fusion techniques to combine the scores coming from the spatial and temporal networks.
-3) Improving the performance of the ranking loss by using a hard ranking mining strategy;
+3) Improving the performance of the ranking loss by using a hard ranking mining strategy.
 4) More experiments on new datasets including TC-128, UAV123, NfS and DTB70.
 5) A more detailed analysis of the recent related work on tracking (especially on tracking methods using spatio-temporal features).
 
