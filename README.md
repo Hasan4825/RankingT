@@ -8,7 +8,7 @@ These project introduces a novel two-stream deep neural network tracker for robu
 The architecture of the proposed two-stream network: We learn class-specific weights to fuse classifiers’ outputs of the two networks.
 <img src="gfx/RankingOverall.png" width="750">
 
-#### The differences between RankingT (published at ICCVW2019) and the lasted method proposed in journal paper proposed two stream trackers (RankingAF, RankingSF)
+#### The differences between RankingT (published at ICCVW2019) and the last proposed methods (RankingAF, RankingSF) introduced in journal paper 
 The preliminary version of this study has appeared in ICCVW2019. In the conference paper we introduced RankingT method which only uses appearance information. The main differences between RankingT and the most recent method can be summarized as follows:
 1) In the last version, we introduced of novel dual-stream deep neural network architectures (RankingAF and Ranking SF) that use both spatial and temporal features. In contrast, RankingT method used only spatial information.
 3) The last proposed method uses two novel fusion techniques to combine the scores coming from the spatial and temporal networks.
