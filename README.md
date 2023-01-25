@@ -9,11 +9,11 @@ The architecture of the proposed two-stream network: We learn class-specific wei
 <img src="gfx/RankingOverall.png" width="750">
 
 #### The differences between RankingT (published at ICCVW2019) and the last proposed methods (RankingAF, RankingSF) introduced in journal paper 
-The preliminary version of this study has appeared in ICCVW2019. In the conference paper we introduced RankingT method which only uses appearance information. The main differences between RankingT and the most recent method can be summarized as follows:
-1) In the last version, we introduced of novel dual-stream deep neural network architectures (RankingAF and Ranking SF) that use both spatial and temporal features. In contrast, RankingT method used only spatial information.
+The preliminary version of this study has appeared in ICCVW2019. In the conference paper, we introduced RankingT method which only uses appearance information. The main differences between RankingT and the most recent method can be summarized as follows:
+1) In the last version, we introduced novel dual-stream deep neural network architectures (RankingAF and Ranking SF) that use both spatial and temporal features. In contrast, RankingT method used only spatial information.
 3) The last proposed method uses two novel fusion techniques to combine the scores coming from the spatial and temporal networks.
-4) We also proposed a hard ranking mining technique to improving the performance of the ranking loss more in the last proposed.
-5) We provided more experiments on new datasets including TC-128, UAV123, NfS and DTB70.
+4) We also proposed a hard ranking mining technique to improve the performance of the ranking loss more in the last proposed method.
+5) We provided more experiments on new datasets including TC-128, UAV123, NfS and DTB70 in the journal version.
 6) We made a more detailed analysis of the recent related work on tracking (especially on tracking methods using spatio-temporal features).
 
 ## Results
