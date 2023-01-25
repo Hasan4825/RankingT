@@ -1,5 +1,5 @@
 # Visual Object Tracking by Using Ranking Loss and Spatial-Temporal Features (RankingAF and RankingSF)
-The official implementation of the Visual Object Tracking by Using Ranking Loss and Spatial-Temporal Features (RankingAF and RankingSF). The article will be here after the publication process.
+The official implementation of the Visual Object Tracking by Using Ranking Loss and Spatial-Temporal Features (RankingAF and RankingSF). The article that summarizes this method is submitted to MVAP. The article details will be given here after the review process.
 
 ### Trackers
 These project introduces a novel two-stream deep neural network tracker for robust object tracking. In the proposed network, we use both spatial and temporal features and employ a novel loss function called ranking loss. The class confidence scores coming from the two-stream (spatial and temporal) networks are fused at the end for final decision. Using ranking loss in the proposed tracker enforces the networks to learn giving higher scores to the candidate regions that frame the target object better. As a result, the tracker returns more precise bounding boxes framing the target object, and the risk of tracking error accumulation and drifts are largely mitigated when the proposed network architecture is used with a simple yet effective model update rule.
@@ -8,13 +8,13 @@ These project introduces a novel two-stream deep neural network tracker for robu
 The architecture of the proposed two-stream network: We learn class-specific weights to fuse classifiers’ outputs of the two networks.
 <img src="gfx/RankingOverall.png" width="750">
 
-#### The differences between RankingT and the proposed two stream trackers (RankingAF, RankingSF)
-
-1) Introduction of a novel dual-stream deep neural network architecture that uses both spatial and temporal features instead of using spatial features alone for tracking.
-2) Introduction of two fusion techniques to combine the scores coming from the spatial and temporal networks.
-3) Improving the performance of the ranking loss by using a hard ranking mining strategy.
-4) More experiments on new datasets including TC-128, UAV123, NfS and DTB70.
-5) A more detailed analysis of the recent related work on tracking (especially on tracking methods using spatio-temporal features).
+#### The differences between RankingT (published at ICCVW2019) and the lasted method proposed in journal paper proposed two stream trackers (RankingAF, RankingSF)
+The preliminary version of this study has appeared in ICCVW2019. In the conference paper we introduced RankingT method which only uses appearance information. The main differences between RankingT and the most recent method can be summarized as follows:
+1) In the last version, we introduced of novel dual-stream deep neural network architectures (RankingAF and Ranking SF) that use both spatial and temporal features. In contrast, RankingT method used only spatial information.
+3) The last proposed method uses two novel fusion techniques to combine the scores coming from the spatial and temporal networks.
+4) We also proposed a hard ranking mining technique to improving the performance of the ranking loss more in the last proposed.
+5) We provided more experiments on new datasets including TC-128, UAV123, NfS and DTB70.
+6) We made a more detailed analysis of the recent related work on tracking (especially on tracking methods using spatio-temporal features).
 
 ## Results
 #### The values of the online learned fusion weights for spatial and temporal networks for the zebrafish video frames
